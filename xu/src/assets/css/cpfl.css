@@ -1,0 +1,153 @@
+@charset "utf-8";
+.drow {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.drow .head .jt {
+  font: 0.4rem "微软雅黑";
+  color: black;
+}
+.drow .head p {
+  display: flex;
+  justify-content: space-between;
+  width: 0.55rem;
+}
+.drow .head p span {
+  width: 0.12rem;
+  height: 0.12rem;
+  background-color: #000;
+  border-radius: 50%;
+  display: block;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: .85rem;
+  padding: 0 0.23rem;
+  padding-top: .43rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.head .logo img {
+  height: auto;
+  width: 1.46rem;
+}
+.head .xzsp {
+  width: 3.02rem;
+  height: 0.38rem;
+  background-color: #eeeeee;
+  text-align: center;
+  font: 0.18rem/0.38rem "微软雅黑";
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding-left: .49rem;
+  padding-right: .67rem;
+  padding-top: .05rem;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #d9d9d9;
+}
+.foot a {
+  display: block;
+  text-align: center;
+}
+.foot a img {
+  width: .52rem;
+  height: auto;
+  margin-top: .19rem;
+}
+.foot a p {
+  font: 0.2rem/0.42rem "微软雅黑";
+  color: #727272;
+}
+.foot a .sy {
+  color: #979797;
+}
+.foot a .wd {
+  color: #f36904;
+}
+.head {
+  background: #f26b11;
+}
+.head .logo {
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.6rem;
+}
+.main .left {
+  padding-bottom: 100%;
+  border-right: 1px solid #d9d9d9;
+}
+.main .left li {
+  width: 1.63rem ;
+  font: 0.26rem/0.52rem "微软雅黑";
+  text-align: center;
+  padding-top: .62rem;
+}
+.main .left li a {
+  display: block;
+  color: #656565;
+}
+.main .left li .a1 {
+  color: #f26b11;
+  border-left: .08rem solid #f26b11;
+  margin-top: .41rem;
+}
+.main .left .l1 {
+  padding-top: 0;
+}
+.main .you {
+  width: 5.11rem;
+  margin: 0 auto;
+}
+.main .you .p1 {
+  float: left;
+  font: 0.26rem/0.78rem "微软雅黑";
+  color: #444444;
+  margin-top: .29rem;
+}
+.main .you .a1 {
+  font: 0.24rem/0.78rem "微软雅黑";
+  float: right;
+  margin-top: .29rem;
+  color: #666666;
+}
+.main .you .right {
+  display: flex;
+  justify-content: space-between;
+}
+.main .you .right li {
+  margin-top: .23rem;
+  text-align: center;
+}
+.main .you .right li a p {
+  font: 0.24rem/0.65rem "微软雅黑";
+  color: #ababab;
+}
+.main .you .right li a img {
+  width: auto;
+  height: 1.35rem;
+}
+.main .you .biaoti2 .p12 {
+  float: left;
+  font: 0.26rem/0.78rem "微软雅黑";
+  color: #444444;
+  margin-top: .63rem;
+}
+.main .you .biaoti2 .a12 {
+  font: 0.24rem/0.78rem "微软雅黑";
+  float: right;
+  margin-top: .63rem;
+  color: #666666;
+}

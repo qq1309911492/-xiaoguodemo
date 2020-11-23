@@ -1,0 +1,337 @@
+@charset "utf-8";
+.drow {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.drow .head .jt {
+  font: 0.4rem "微软雅黑";
+  color: black;
+}
+.drow .head p {
+  display: flex;
+  justify-content: space-between;
+  width: 0.55rem;
+}
+.drow .head p span {
+  width: 0.12rem;
+  height: 0.12rem;
+  background-color: #000;
+  border-radius: 50%;
+  display: block;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: .85rem;
+  padding: 0 0.23rem;
+  padding-top: .43rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.head .logo img {
+  height: auto;
+  width: 1.46rem;
+}
+.head .xzsp {
+  width: 3.02rem;
+  height: 0.38rem;
+  background-color: #eeeeee;
+  text-align: center;
+  font: 0.18rem/0.38rem "微软雅黑";
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding-left: .49rem;
+  padding-right: .67rem;
+  padding-top: .05rem;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #d9d9d9;
+}
+.foot a {
+  display: block;
+  text-align: center;
+}
+.foot a img {
+  width: .52rem;
+  height: auto;
+  margin-top: .19rem;
+}
+.foot a p {
+  font: 0.2rem/0.42rem "微软雅黑";
+  color: #727272;
+}
+.foot a .sy {
+  color: #979797;
+}
+.foot a .wd {
+  color: #f36904;
+}
+body {
+  background: #efefef;
+}
+.head {
+  background: #f26b11;
+  border-bottom: none;
+}
+.head .logo {
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.tu1 {
+  background: #fff;
+  padding-bottom: .05rem;
+}
+.tu1 img {
+  width: 100%;
+  height: auto;
+}
+.tu1 .p1 {
+  margin-top: .23rem;
+  margin-left: .37rem;
+  font: 0.3rem/0.46rem "微软雅黑";
+  color: #333333;
+}
+.tu1 .p2 {
+  margin-left: .37rem;
+  font: 0.3rem/0.82rem Arial;
+  color: red;
+}
+.tu1 .p2 span {
+  font-size: .22rem;
+  color: #878787;
+}
+.choice {
+  margin-top: .30rem;
+  background: #fff;
+}
+.choice .chuxiao {
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .23rem;
+}
+.choice .chuxiao .zuo p {
+  float: left;
+}
+.choice .chuxiao .zuo .p1 {
+  font: 0.26rem/0.98rem "微软雅黑";
+}
+.choice .chuxiao .zuo .p2 {
+  display: inline-block;
+  margin-top: .31rem;
+  width: .62rem;
+  text-align: center;
+  border-radius: .1rem;
+  border: 1px solid #b12818;
+  font: 0.2rem/0.37rem "微软雅黑";
+  color: #b12818;
+}
+.choice .chuxiao .zuo .p3 {
+  margin-left: .19rem;
+  font: 0.24rem/0.98rem "微软雅黑";
+}
+.choice .chuxiao .jt a img {
+  margin-top: .42rem;
+  width: .24rem;
+  height: auto;
+}
+.choice .number {
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .23rem;
+  align-items: center;
+  height: 1.08rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.choice .number p {
+  font: 0.26rem "微软雅黑";
+}
+.choice .number span {
+  float: right;
+  display: inline-block;
+}
+.choice .number .j {
+  width: .63rem;
+  text-align: center;
+  border: 1px solid #454545;
+  font: 0.2rem/0.59rem "微软雅黑";
+}
+.choice .number .y {
+  width: .80rem;
+  text-align: center;
+  border-top: 1px solid #454545;
+  border-bottom: 1px solid #454545;
+  font: 0.2rem/0.59rem "微软雅黑";
+}
+.choice .guige {
+  margin-top: .12rem  ;
+}
+.choice .guige .shang {
+  height: .81rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .23rem;
+  align-items: center;
+}
+.choice .guige .shang p {
+  font: 0.26rem "微软雅黑";
+}
+.choice .guige .shang a img {
+  width: .24rem;
+  height: auto;
+}
+.choice .guige .xia {
+  display: flex;
+  padding-left: .23rem;
+  padding-right: .23rem;
+}
+.choice .guige .xia p {
+  width: 1.21rem;
+  font: 0.24rem/0.98rem "微软雅黑";
+  color: #b6b6b6;
+}
+.choice .guige .xia .a1 {
+  width: 1.50rem;
+  height: .59rem;
+  text-align: center;
+  background: #e43a3d;
+  font: 0.28rem/0.59rem "微软雅黑";
+  color: #fff;
+}
+.choice .guige .xia .a2 {
+  width: 1.17rem;
+  height: .59rem;
+  text-align: center;
+  background: #e1e1e3;
+  font: 0.28rem/0.59rem "微软雅黑";
+  color: #fff;
+  margin-left: .15rem;
+}
+.details {
+  margin-top: .30rem;
+  background: #fff;
+}
+.details p {
+  padding-left: .23rem;
+  padding-right: .23rem;
+  font: 0.3rem/1rem "微软雅黑";
+  color: #454545;
+}
+.details img {
+  width: 100%;
+  height: auto;
+}
+.evaluate {
+  margin-top: .30rem;
+  background: #fff;
+}
+.evaluate .p1 {
+  font: 0.3rem/0.93rem "微软雅黑";
+  color: #464646;
+  margin-left: .23rem;
+  margin-right: .23rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.evaluate .p2 {
+  margin-top: .14rem;
+  margin-left: .23rem;
+  margin-right: .23rem;
+  font: 0.26rem/0.55rem "微软雅黑";
+  color: #464646;
+}
+.evaluate .p3 {
+  margin-top: 0rem;
+  color: #454545;
+}
+.evaluate .tp {
+  margin-top: .21rem;
+  display: flex;
+}
+.evaluate .tp img {
+  width: 1.54rem;
+  height: auto;
+  margin-left: .32rem;
+}
+.evaluate .p4 {
+  margin-top: .08rem;
+  margin-right: .23rem;
+  margin-left: .23rem;
+  font: 0.26rem/0.77rem "微软雅黑";
+  color: #999999;
+  border-bottom: 1px solid #eeeeee;
+}
+.evaluate .pl {
+  padding-right: .23rem;
+  padding-left: .23rem;
+  height: .90rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.evaluate .pl p {
+  font: .26rem Arial;
+  color: #999999;
+}
+.evaluate .pl a {
+  font: 0.24rem "微软雅黑";
+  color: #989898;
+}
+.footer {
+  height: 1.55rem;
+  background: #fff;
+  padding-left: .23rem;
+  display: flex;
+  align-items: center;
+}
+.footer a {
+  display: block;
+}
+.footer .a1 {
+  text-align: center;
+  width: 1.49rem;
+  position: relative;
+}
+.footer .a1 img {
+  width: .48rem;
+  height: auto;
+}
+.footer .a1 p {
+  font: 0.18rem/0.43rem "微软雅黑";
+  color: #878787;
+}
+.footer .a1 em {
+  display: block;
+  width: .24rem;
+  background: red;
+  font: 0.19rem/0.24rem Arial;
+  border-radius: 50%;
+  position: absolute;
+  right: .35rem;
+  top: 0;
+  color: #fff;
+}
+.footer .a2 {
+  width: 2.91rem;
+  background: #f26b11;
+  text-align: center;
+  font: 0.3rem/1.55rem "微软雅黑";
+  color: #fff;
+}
+.footer .a3 {
+  width: 2.89rem;
+  background: #e43a3d;
+  text-align: center;
+  font: 0.3rem/1.55rem "微软雅黑";
+  color: #fff;
+}

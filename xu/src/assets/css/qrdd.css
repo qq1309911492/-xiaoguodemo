@@ -1,0 +1,304 @@
+@charset "utf-8";
+.drow {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.drow .head .jt {
+  font: 0.4rem "微软雅黑";
+  color: black;
+}
+.drow .head p {
+  display: flex;
+  justify-content: space-between;
+  width: 0.55rem;
+}
+.drow .head p span {
+  width: 0.12rem;
+  height: 0.12rem;
+  background-color: #000;
+  border-radius: 50%;
+  display: block;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: .85rem;
+  padding: 0 0.23rem;
+  padding-top: .43rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.head .logo img {
+  height: auto;
+  width: 1.46rem;
+}
+.head .xzsp {
+  width: 3.02rem;
+  height: 0.38rem;
+  background-color: #eeeeee;
+  text-align: center;
+  font: 0.18rem/0.38rem "微软雅黑";
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding-left: .49rem;
+  padding-right: .67rem;
+  padding-top: .05rem;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #d9d9d9;
+}
+.foot a {
+  display: block;
+  text-align: center;
+}
+.foot a img {
+  width: .52rem;
+  height: auto;
+  margin-top: .19rem;
+}
+.foot a p {
+  font: 0.2rem/0.42rem "微软雅黑";
+  color: #727272;
+}
+.foot a .sy {
+  color: #979797;
+}
+.foot a .wd {
+  color: #f36904;
+}
+body {
+  background: #f1f1f1;
+}
+.head {
+  background: #f26b11;
+  border-bottom: none;
+}
+.head .logo {
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.add {
+  background: #fff;
+}
+.add .shr {
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .95rem;
+}
+.add .shr .a1 {
+  font: 0.24rem/0.46rem "微软雅黑";
+  color: #666666;
+  margin-top: .14rem;
+}
+.add .dizhi {
+  padding-left: .23rem;
+}
+.add .dizhi .a1 {
+  font: 0.24rem/0.46rem "微软雅黑";
+  color: #666666;
+}
+.add .dizhi .a2 {
+  width: 5.17rem;
+  font: 0.24rem/0.46rem "微软雅黑";
+  color: #666666;
+}
+.add .dizhi .jt2 {
+  padding-left: .32rem;
+}
+.add .dizhi .jt2 img {
+  width: .19rem;
+  height: auto;
+}
+.choice {
+  background: #fff;
+  margin-top: .12rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .26rem;
+}
+.choice .tu {
+  margin-top: .22rem;
+}
+.choice .tu img {
+  width: 1.02rem;
+  height: auto;
+  margin-left: .12rem;
+}
+.choice .tu .js {
+  width: 2rem;
+  margin-left: .29rem;
+}
+.choice .tu .js p {
+  font: 0.24rem/0.47rem "微软雅黑";
+}
+.choice .tu .js .gg {
+  color: #b4b4b4;
+}
+.choice .jg {
+  font: 0.24rem/0.47rem "微软雅黑";
+  color: red;
+  margin-top: .22rem;
+}
+.gmsl {
+  background: #fff;
+  height: 1.38rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .26rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.gmsl p {
+  margin-top: .57rem;
+  font: 0.24rem "微软雅黑";
+  color: #636363;
+}
+.gmsl a {
+  margin-top: .38rem;
+}
+.gmsl a span {
+  display: inline-block;
+}
+.gmsl a .jian {
+  width: .75rem;
+  text-align: center;
+  line-height: .65rem ;
+  border-radius: .05rem;
+  border: 1px solid #535353;
+}
+.gmsl a .d {
+  width: 1.19rem;
+  text-align: center;
+  line-height: .65rem ;
+  border-radius: .05rem;
+  border: 1px solid #535353;
+}
+.pssf {
+  background: #fff;
+  height: .96rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .23rem;
+  padding-right: .26rem;
+}
+.pssf p,
+.pssf a {
+  font: 0.24rem "微软雅黑";
+  color: #636363;
+}
+.yhj {
+  margin-top: .11rem;
+  background: #fff;
+  height: .96rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .23rem;
+  padding-right: .26rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.yhj p,
+.yhj a {
+  font: 0.24rem "微软雅黑";
+  color: #636363;
+}
+.syjf {
+  display: flex;
+  justify-content: space-between;
+  height: 1.02rem;
+  align-items: center;
+  background: #fff;
+  padding-left: .23rem;
+  padding-right: .26rem;
+}
+.syjf p {
+  font: 0.24rem "微软雅黑";
+  color: #636363;
+}
+.syjf .zuo input {
+  width: 1.50rem;
+  border: .04rem solid #d9d9d9;
+  font: 0.24rem/0.7rem "微软雅黑";
+  text-align: center;
+  border-radius: .05rem;
+}
+.syjf .zuo ::placeholder {
+  color: #eaeaea;
+}
+.syjf .zuo .a1 {
+  display: inline-block;
+  width: .74rem;
+  background: #f26b11;
+  border: 1px solid #f0aa28;
+  font: 0.24rem/0.7rem "微软雅黑";
+  color: #fff;
+  text-align: center;
+  border-radius: .05rem;
+}
+.syjf .zuo .a2 {
+  font: 0.24rem "微软雅黑";
+  margin-left: .15rem;
+  color: #979797;
+}
+.syjf .zuo .a2 span {
+  color: red;
+}
+.xiaoji {
+  background: #fff;
+  margin-top: .10rem;
+  padding-bottom: .19rem;
+  border-bottom: 1px solid #efefef;
+}
+.xiaoji .je {
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .26rem;
+}
+.xiaoji .je p {
+  font: 0.24rem/0.44rem "微软雅黑";
+  color: #6c6c6c;
+}
+.xiaoji .je .p1,
+.xiaoji .je .p3 {
+  margin-top: .25rem;
+}
+.xiaoji .je .p2 {
+  color: red;
+}
+.tijiao {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: .23rem;
+  padding-right: .26rem;
+}
+.tijiao p {
+  font: 0.24rem/1.25rem "微软雅黑";
+}
+.tijiao p span {
+  color: red;
+}
+.qd {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.65rem;
+}
+.qd input {
+  width: 3.54rem;
+  background: #f26b11;
+  font: 0.24rem/1.11rem "微软雅黑";
+  color: #fff;
+}
